@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html xmlns:inkscape="" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <title>Login</title>
+    <link href="../static/css/login.css" rel="stylesheet"
+          th:href="@{/css/login.css}"/>
+    <script crossorigin="anonymous"
+            integrity="sha512-z4OUqw38qNLpn1libAN9BsoDx6nbNFio5lA6CuTp9NlK83b89hgyCVq+N5FdBJptINztxn1Z3SaKSKUS5UP60Q=="
+            referrerpolicy="no-referrer"
+            src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+</head>
+<body>
+<div class="page">
+    <div class="container">
+        <div class="left">
+            <div class="login">Login</div>
+            <div class="eula">By logging in you agree to the ridiculously long terms that you didn't bother to read
+            </div>
+        </div>
+        <div class="right">
+            <svg viewBox="0 0 320 300">
+                <defs>
+                    <linearGradient
+                            gradientUnits="userSpaceOnUse"
+                            id="linearGradient"
+                            inkscape:collect="always"
+                            x1="13"
+                            x2="307"
+                            y1="193.49992"
+                            y2="193.49992">
+                        <stop
+                                id="stop876"
+                                offset="0"
+                                style="stop-color:#ff00ff;"/>
+                        <stop
+                                id="stop878"
+                                offset="1"
+                                style="stop-color:#ff0000;"/>
+                    </linearGradient>
+                </defs>
+                <path d="m 40,120.00016 239.99984,-3.2e-4 c 0,0 24.99263,0.79932 25.00016,35.00016 0.008,34.20084 -25.00016,35 -25.00016,35 h -239.99984 c 0,-0.0205 -25,4.01348 -25,38.5 0,34.48652 25,38.5 25,38.5 h 215 c 0,0 20,-0.99604 20,-25 0,-24.00396 -20,-25 -20,-25 h -190 c 0,0 -20,1.71033 -20,25 0,24.00396 20,25 20,25 h 168.57143"/>
+            </svg>
+            <form id="customForm" method="post" th:action="@{/user/login}">
+                <div class="form">
+                    <label for="username">Username</label>
+                    <input id="username" name="username" type="text">
+                    <label for="pwd">Password</label>
+                    <input id="pwd" name="password" type="password">
+                    <input id="submit" type="submit" value="Submit">
+                    <script src="../static/js/login.js" th:src="@{/js/login.js}"
+                            type="text/javascript"></script>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>

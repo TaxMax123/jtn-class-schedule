@@ -1,0 +1,58 @@
+[
+  {
+    "userName_s": "ns55698@unist.hr",
+    "pwd_s": "Pa55w0rd",
+    "role_i": 3,
+    "firstName_s": "Nikola",
+    "lastName_s": "Stazic",
+    "year_i": 3,
+    "enrolledCourses_s": [
+      "bd581e23-e47e-4933-af6b-ae1e28e9d15d"
+    ],
+    "id": "53436850-8e87-43b4-9837-bfd398b6c278",
+    "allCoursesShown_b": true
+  },
+  {
+    "id": "0181dfcb-8126-4565-bb28-68bed3dd37da",
+    "userName_s": "jb45669@unist.hr",
+    "pwd_s": "$2a$10$zlfWNUvlOehNoLWzzhQDi.PL83pAS798/rwwoZA6Q134Ad2JjinE2",
+    "role_i": 3,
+    "firstName_s": "Jure",
+    "lastName_s": "Boban",
+    "year_i": 3,
+    "enrolledCourses_s": [
+      "062ae9c3-72c3-449b-8a48-74319121c677",
+      "6a7f9db6-0725-41d1-9f85-91535529e54e",
+      "1999b44e-499f-43ba-8e67-7d7fe1b4a643"
+    ],
+    "allCoursesShown_b": false
+  },
+  {
+    "id": "c7a6c89c-4ea1-428d-abaa-f73733f486a7",
+    "userName_s": "ivica.ivic@unist.hr",
+    "pwd_s": "$2a$12$zchxvw3U/XuWqhRR7ergye6EFWAJFxjnyPxCQ.uX3A/9Y983azIqK",
+    "role_i": 3,
+    "firstName_s": "Ivica",
+    "lastName_s": "Ivic",
+    "year_i": 3,
+    "enrolledCourses_s": [
+      "30b64452-ff51-45ac-984a-ed5c183d47e7",
+      "67e007a8-4f8d-48ec-bf87-293c8c80c396",
+      "ad35963c-bd50-4578-b55a-7b517f8d1645",
+      "cf935e8f-cab5-435c-a568-d9bac3c4baa6",
+      "74b3c9e1-c948-4c0d-8630-422199aa54f9",
+      "1f5a582a-1331-418c-8b63-70002174eb23"
+    ],
+    "allCoursesShown_b": true
+  },
+  {
+    "id": "6d1b4886-9228-443e-adbe-b7dda59a1463",
+    "userName_s": "josip.vrlic@unist.hr",
+    "pwd_s": "$2a$12$zchxvw3U/XuWqhRR7ergye6EFWAJFxjnyPxCQ.uX3A/9Y983azIqK",
+    "role_i": 2,
+    "firstName_s": "Josip",
+    "lastName_s": "Vrlic",
+    "year_i": 0,
+    "allCoursesShown_b": false
+  }
+]
