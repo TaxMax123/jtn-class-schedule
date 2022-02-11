@@ -20,7 +20,7 @@ were later notified it had to be monolith, so we combined what we had and rework
 * [Deploy DB](#docker-deploy-database)
 * [Project structure](#project-structure)
 * [Conclusion](#conclusion)
-* [Tips](#problems-encountered)
+* [Limitations](#problems-encountered)
 * [Authors](#authors)
 
 ## General info
@@ -380,3 +380,5 @@ others
 - docker deploy
 - software architect
 - backend developer
+- documentation
+- team lead
