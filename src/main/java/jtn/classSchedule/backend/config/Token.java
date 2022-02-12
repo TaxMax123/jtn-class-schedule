@@ -8,9 +8,6 @@ import org.springframework.stereotype.Component;
 
 
 @Component
-@EntityScan
-@ComponentScan
-@Configuration
 public class Token {
     @Value("${admin.access.token}")
     private String token;

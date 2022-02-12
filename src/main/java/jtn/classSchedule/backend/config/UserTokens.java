@@ -10,9 +10,6 @@ import java.util.ArrayList;
 
 
 @Component
-@EntityScan
-@ComponentScan
-@Configuration
 public class UserTokens {
     @Value("${user.access.tokens}")
     private ArrayList<String> tokens;
