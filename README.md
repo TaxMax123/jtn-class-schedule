@@ -76,7 +76,7 @@ required, as well as docker-compose to run deploy
 * user-friendly UI with multiple filters [View](#schedule-view)
 * query form for classroom availability [Query](#query-available-classrooms)
 * events list view per semester [List View](#list-view)
-* apu endpoint for login [Login](#login-endpoint)
+* api endpoint for login [Login](#login-endpoint)
 * api endpoint for statistics report [Reports](#reports-endpoint)
 * api endpoint for admin activities [Admin](#admin-endpoint)
 * api endpoint for events [Events](#events-endpoint)
@@ -340,8 +340,7 @@ project, for those who find it, will be worthwhile and useful
 
 Before you yell at us for how we did Bearer tokens, know that it was our intention to have tokens that can be forgotten
 every time application is stopped, but if you need way to persist it, we think it should not be too much work to save it
-to database, also replacing it with JWT should be much easier than what we did, but we wanted to do some code ourselves
-not only use annotations
+to database, also replacing it with JWT should be much easier, if you know how to use it, than what we did
 
 ## Problems encountered
 
@@ -357,7 +356,7 @@ others
   [file](src/main/java/jtn/classSchedule/backend/config/login/SecurityConfiguration.java)
 
 * Reading values from application.properties, again straight forward one but took some time to figure out, all we needed
-  was `@Value` on our variable and `@Configuration` on its class, example for this can be found
+  was `@Value` on our variable and `@Component` on its class, example for this can be found
   in [config](src/main/java/jtn/classSchedule/backend/config) folder, in token / configuration Java files
 
 ## Authors
