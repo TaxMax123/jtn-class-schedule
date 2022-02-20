@@ -10,12 +10,12 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.solr.core.SolrTemplate;
 import org.springframework.data.solr.repository.config.EnableSolrRepositories;
+import org.springframework.stereotype.Component;
 
 
-@Configuration
+
 @EnableSolrRepositories(solrTemplateRef = "timetableSolrTemplate", basePackages = "jtn.classSchedule.backend.persistence.course")
-@EntityScan
-@ComponentScan
+@Component
 public class TimetableSolrConfiguration {
 
     @Value("${datasource.timetable.solr.host}")

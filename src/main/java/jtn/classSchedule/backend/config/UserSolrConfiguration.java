@@ -9,12 +9,11 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.solr.core.SolrTemplate;
 import org.springframework.data.solr.repository.config.EnableSolrRepositories;
+import org.springframework.stereotype.Component;
 
 
-@Configuration
 @EnableSolrRepositories(solrTemplateRef = "userSolrTemplate", basePackages = "jtn.classSchedule.backend.persistence.user")
-@EntityScan
-@ComponentScan
+@Component
 public class UserSolrConfiguration {
 
     @Value("${datasource.user.solr.host}")
